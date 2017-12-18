@@ -1,0 +1,24 @@
+<nav class='navbar navbar-inverse'>
+    <div class='container-fluid'>
+       <h2>Coding Dojo Mail</h2>
+    </div>
+</nav>
+
+<table class='table'>
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Importance</th>
+            <th>Subject</th>
+            <th>Content</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor='let email of emails'>
+        <td>{{email.email | lowercase }}</td>
+        <td>{{getImportance(email.importance)}}</td>
+        <td>{{email.subject | titlecase }}</td>
+        <td>{{email.content}}</td>
+    </tr>
+    </tbody>
+</table>

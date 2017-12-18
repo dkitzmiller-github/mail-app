@@ -1,0 +1,12 @@
+<div class='text-center'>
+    <h3>US Time Zone Display</h3>
+
+    <button class='timezonebutton' (click)="changeTimeZone($event)" name='pst'>PST</button>
+    <button class='timezonebutton' (click)="changeTimeZone($event)" name='mst'>MST</button>
+    <button class='timezonebutton' (click)="changeTimeZone($event)" name='cst'>CST</button>
+    <button class='timezonebutton' (click)="changeTimeZone($event)" name='est'>EST</button>
+    <button class='timezonebutton' (click)="changeTimeZone($event)" name='clear'>Clear</button>
+
+    <h3>{{ displayedTime | date : "medium" }}</h3>
+
+</div>

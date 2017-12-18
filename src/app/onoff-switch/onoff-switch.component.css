@@ -1,0 +1,23 @@
+.switch {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin: 0px;
+    padding: 10px 4px;
+}
+
+.switchplate {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: brown;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+
+}

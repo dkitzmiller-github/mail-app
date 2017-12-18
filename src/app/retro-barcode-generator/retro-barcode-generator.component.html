@@ -1,0 +1,7 @@
+<div class='text-center'>
+    <div *ngFor="let bgcolor of colors" class='colorblock' [style.background-color]="bgcolor"></div>
+
+    <div>
+        <button class='btn btn-primary' (click)='refresh()'>Refresh Colors</button>
+    </div>
+</div>

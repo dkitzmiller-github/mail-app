@@ -1,0 +1,9 @@
+.switchboard {
+    width: 800px;
+    height: 180px;
+    border: 1px solid darkslategray;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
